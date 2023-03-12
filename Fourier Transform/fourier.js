@@ -58,6 +58,7 @@ function mouseReleased() {
 
 function setup() {
 	createCanvas(800, 500);
+	textSize(16);
 }
 
 function draw() {
@@ -87,4 +88,6 @@ function draw() {
 		t += dt;
   }
 	
+	fill(150);
+	text('Draw On The Canvas!', 10, 30);	
 }
