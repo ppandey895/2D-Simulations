@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sierpenski Triangle</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="p5.js"></script>
+  <script src="sketch.js"></script>
+
+</head>
+
+<body>
+  <main>
+    <h2>Sierpiński Triangle</h2>
+    <h6>Read instructions below</h6>
+  </main>
+
+  <div id='button-container'></div>
+
+  <div id='how-to'>
+    <h3>Instructions</h3>
+    <ul>
+      <li>Click anywhere on the above canvas to select a random starting point
+      <li>Click start to see the simulation play
+      <li>Click pause to restart the entire process
+      <li>When paused, the triangle points can be dragged to different positions
+    </ul>
+
+    <h3>How does it work?</h3>
+    <ol>
+      <li>You select an inital random point [P<sub>1</sub>]
+      <li>Out of the 3 points of triangle, a random point is selected [P<sub>2</sub>]
+      <li>We calculate the mid point between the random point and the triangle point [P<sub>1</sub> & P<sub>2</sub>]
+      <li>Assume this new point to be P<sub>1</sub>
+      <li>Repeat the step 2.
+    </ol>
+
+    <a href='https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle' target='_blank'>Learn more here</a>
+  </div>
+</body>
+
+</html>
